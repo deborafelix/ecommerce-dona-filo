@@ -1,0 +1,12 @@
+.container__products {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+.products {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    column-gap: 10px;
+}

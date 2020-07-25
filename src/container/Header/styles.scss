@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.container{
+    width: 100vw;
+    height: 10vh;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header h1 {
+    font-family: Shadows Into Light;
+    color: #fff;
+    font-size: 3vh;
+    font-weight: normal;
+}
+
+.header__icons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__icon {
+    color: #eff6fe;
+    padding: 0.2rem;
+}
+
+.header__icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.header__cart {
+    position: relative;
+}
+
+.header__cart__qty {
+    position: absolute;
+    color: #fff;
+    top: 0px;
+    left: 15px;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    background-color: #EF2D56;
+}
+
+@media (min-width: 426px) and (max-width: 767px) {
+    .header {
+        width: 80%;
+    }
+    
+    .header h1 {
+        font-size: 4vh;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .header {
+        width: 70%;
+    }
+    
+    .header h1 {
+        font-size: 4.5vh;
+    }
+}

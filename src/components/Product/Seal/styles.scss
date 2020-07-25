@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Special+Elite&display=swap');
+
+
+.onsale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 20px;
+    background-color: #EF2D56;
+}
+
+.onsale h1 {
+    color: #FFF;
+    font-family: Roboto;
+    font-weight: lighter;
+    font-size: 12px;
+}
+
+.notsale {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 280px;
+    height: 20px;
+    background-color: #fff;
+}

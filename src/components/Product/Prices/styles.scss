@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Special+Elite&display=swap');
+
+.product__info__prices {
+    font-family: Roboto;
+    margin-top: 15px;
+    font-size: 14px;
+    width: 90%;
+}
+
+.discount {
+   display: flex;
+   justify-content: space-between;
+}
+
+.discount__regularprice {
+    text-decoration: line-through;
+}
+
+.discount__percentage {
+    color: #8a8a8a;
+    font-size: 10px;
+}
+
+.notdiscount {
+    display: flex;
+    justify-content: center;
+}

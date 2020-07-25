@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,100&family=Special+Elite&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+.sizes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sizes__block {
+    display: flex;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.size__input{
+    display: none;
+}
+
+input[type="radio"]:checked + label { 
+    background-color: #000;
+    color: #fff;
+}
+
+.size, .nosize {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #8a8a8a;
+    border-radius: 2rem;
+    background-color: #fff;
+    color: #000;
+    margin: 3px; 
+    font-family: 'Roboto';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.nosize {
+    opacity: 0.4;
+    cursor: default;
+    position: relative;
+}
+
+.nosize::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 0.1rem; /* largura da faixa */
+    height: 100%;
+    background: #8a8a8a; /* cor da faixa */
+    transform-origin: center;
+    transform: rotate(45deg);
+}
